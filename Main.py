@@ -44,6 +44,6 @@ wf.close()
 with open('./temp.wav', 'rb') as f:
     r = requests.post('http://localhost:5000/model/predict', files={'./temp.wav': f})
 
-# fill this ßup!!!!!!!!!!!!
+# fill this up!!!!!!!!!!!!
 
 #os.remove("./temp.wav")
